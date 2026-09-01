@@ -1,0 +1,72 @@
+body {
+    background-color: #f8e8f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.choice {
+    background-color: white;
+    width: 200px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.emoji {
+    font-size: 50px;
+}
+.choice {
+    transition: 0.3s;
+}
+
+.choice:hover {
+    transform: translateY(-10px);
+}
+.choice:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.choice {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.card-line {
+    width: 100%;
+    height: 3px;
+    background-color: #d98cb3;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.animal-line {
+    width: 100%;
+    height: 3px;
+    background-color:rgb(245, 52, 52);
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.number-line {
+    width: 100%;
+    height: 3px;
+    background-color: #8e44ad;
+    margin: 15px auto 30px;
+    border-radius: 10px;
+}
