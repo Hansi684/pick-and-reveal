@@ -70,3 +70,32 @@ p {
     margin: 15px auto 30px;
     border-radius: 10px;
 }
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+
+    .container {
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .choices {
+        gap: 15px;
+    }
+
+   .choice {
+        width: 160px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .emoji {
+        font-size: 40px;
+    }
+}
